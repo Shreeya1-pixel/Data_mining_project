@@ -1,0 +1,116 @@
+{
+  "files_sampled": 124,
+  "files_failed": 0,
+  "mean_zip_mb": 5.34,
+  "per_file_mean": {
+    "all": 1289.1,
+    "has_title_all": 1287.2,
+    "geo_global": 608.3,
+    "geo_and_econ_global": 603.2,
+    "india": 74.4,
+    "india_and_geo": 39.7,
+    "india_and_geo_title": 39.7,
+    "india_and_geo_or_econ": 63.9
+  },
+  "month_estimate": {
+    "all": 3836232,
+    "has_title_all": 3830592,
+    "geo_global": 1810296,
+    "geo_and_econ_global": 1795128,
+    "india": 221376,
+    "india_and_geo": 118200,
+    "india_and_geo_title": 118104,
+    "india_and_geo_or_econ": 190248
+  },
+  "five_year_estimate_india_and_geo": 7092000,
+  "title_share_india_and_geo": 0.999,
+  "title_share_all": 0.999,
+  "event_type_share_india_and_geo": {
+    "CONFLICT": 0.716,
+    "POLITICS": 0.226,
+    "DIPLO": 0.176,
+    "ENERGY": 0.165,
+    "TERROR": 0.148,
+    "SANCTION": 0.14,
+    "SHIPPING": 0.12,
+    "MONETARY": 0.114,
+    "TECH": 0.042,
+    "TRADE": 0.014
+  },
+  "top_sources_india_and_geo": [
+    [
+      "indiatimes.com",
+      348
+    ],
+    [
+      "business-standard.com",
+      175
+    ],
+    [
+      "webindia123.com",
+      145
+    ],
+    [
+      "msn.com",
+      144
+    ],
+    [
+      "thehindu.com",
+      142
+    ],
+    [
+      "freepressjournal.in",
+      136
+    ],
+    [
+      "menafn.com",
+      106
+    ],
+    [
+      "prokerala.com",
+      89
+    ],
+    [
+      "indiankanoon.org",
+      85
+    ],
+    [
+      "ndtv.com",
+      78
+    ],
+    [
+      "indiatoday.in",
+      71
+    ],
+    [
+      "indiagazette.com",
+      67
+    ],
+    [
+      "deccanherald.com",
+      64
+    ],
+    [
+      "bignewsnetwork.com",
+      61
+    ],
+    [
+      "idrw.org",
+      49
+    ]
+  ],
+  "example_titles": [
+    "After India Abstains From UNSC Vote Over Ukraine Crisis, US Says Washington Has Voiced Its \"Concerns\" About Russia To New Delhi",
+    "Over 520,000 Refugees Have Fled Ukraine Since Russia Waged War",
+    "Black female WWII unit recognized with congressional honor",
+    "Commercial LPG cylinder prices increased by Rs 105 - Jammu Kashmir Latest News | Tourism",
+    "Russia Swift Ban: ET in the classroom: How SWIFT curbs hurt Russia's ability to defend Ruble",
+    "Gold-plated kalasams atop Viruthagireeswarar temple in Cuddalore stolen",
+    "NGT takes cognisance of media report on Kham River pollution, seeks report",
+    "Samsung Retires Galaxy Note Brand",
+    "Myanmar Junta Jails Ousted NLD Chief Minister for 21 Years Over Alleged Corruption",
+    "India at UN votes in favour for renewal of UNSC 2140 Sanctions Committee mandate on Yemen",
+    "SA's response to Russia's invasion of Ukraine expos...",
+    "Technical Specialist, Gender-Based Violence P-4 - UNFPA - Multiple locations/Sri Lanka, Indonesia"
+  ]
+}

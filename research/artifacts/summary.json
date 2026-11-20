@@ -1,0 +1,394 @@
+{
+  "n_sessions": 164,
+  "n_articles_raw": 116015,
+  "n_articles_t3_relevant": 988,
+  "n_baskets": 163,
+  "n_train": 120,
+  "n_test": 21,
+  "n_rules_all": 337870,
+  "n_rules_lagged_news": 872,
+  "n_survivors_bh": 228,
+  "tiers": {
+    "T1 India + any broad theme": {
+      "pilot_rows": 42121,
+      "month_est": 1010904,
+      "month_est_after_title_dedup": 900888,
+      "title_dup_rate": 0.109
+    },
+    "T2 core geopolitical theme, (India or econ)": {
+      "pilot_rows": 46812,
+      "month_est": 1123488,
+      "month_est_after_title_dedup": 944952,
+      "title_dup_rate": 0.159
+    },
+    "T3 = T2 and whitelisted source": {
+      "pilot_rows": 4758,
+      "month_est": 114192,
+      "month_est_after_title_dedup": 113640,
+      "title_dup_rate": 0.005
+    },
+    "T4 = T2 and (India and econ)": {
+      "pilot_rows": 8585,
+      "month_est": 206040,
+      "month_est_after_title_dedup": 176328,
+      "title_dup_rate": 0.144
+    }
+  },
+  "regime_counts": {
+    "bull": 65,
+    "bear": 62,
+    "sideways": 37
+  },
+  "weekday_evt_rate": {
+    "Mon": 0.26,
+    "Tue": 0.20909090909090908,
+    "Wed": 0.22352941176470587,
+    "Thu": 0.25757575757575757,
+    "Fri": 0.259375,
+    "Sat": 0.0,
+    "Sun": 0.0
+  },
+  "fold_reports": [],
+  "classifiers": {
+    "Bank": [
+      {
+        "name": "georule",
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.28502415458937197,
+        "precision": 0.27777777777777773,
+        "recall": 0.2929292929292929,
+        "roc_auc": 0.282351290684624,
+        "n_test": 21
+      },
+      {
+        "name": "georule_price_only",
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.19999999999999998,
+        "precision": 0.14285714285714285,
+        "recall": 0.3333333333333333,
+        "roc_auc": NaN,
+        "n_test": 21
+      },
+      {
+        "name": "decision_tree",
+        "accuracy": 0.5238095238095238,
+        "macro_f1": 0.3466666666666667,
+        "precision": 0.4166666666666667,
+        "recall": 0.38720538720538716,
+        "roc_auc": 0.4425084175084175,
+        "n_test": 21
+      },
+      {
+        "name": "knn",
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.2777777777777778,
+        "precision": 0.2747252747252747,
+        "recall": 0.28619528619528617,
+        "roc_auc": 0.5035353535353535,
+        "n_test": 21
+      },
+      {
+        "name": "naive_bayes",
+        "accuracy": 0.23809523809523808,
+        "macro_f1": 0.16934046345811052,
+        "precision": 0.18803418803418803,
+        "recall": 0.1717171717171717,
+        "roc_auc": 0.3164983164983165,
+        "n_test": 21
+      },
+      {
+        "name": "svm",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.16666666666666666,
+        "precision": 0.12280701754385964,
+        "recall": 0.25925925925925924,
+        "roc_auc": 0.3625701459034792,
+        "n_test": 21
+      }
+    ],
+    "IT": [
+      {
+        "name": "georule",
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.2745098039215686,
+        "precision": 0.2333333333333333,
+        "recall": 0.3333333333333333,
+        "roc_auc": 0.6254390645146948,
+        "n_test": 21
+      },
+      {
+        "name": "georule_price_only",
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.26666666666666666,
+        "precision": 0.2222222222222222,
+        "recall": 0.3333333333333333,
+        "roc_auc": NaN,
+        "n_test": 21
+      },
+      {
+        "name": "decision_tree",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.24222222222222223,
+        "precision": 0.24915824915824913,
+        "recall": 0.27777777777777773,
+        "roc_auc": 0.4701287922576438,
+        "n_test": 21
+      },
+      {
+        "name": "knn",
+        "accuracy": 0.5238095238095238,
+        "macro_f1": 0.3047619047619048,
+        "precision": 0.28571428571428575,
+        "recall": 0.34920634920634924,
+        "roc_auc": 0.551005587420153,
+        "n_test": 21
+      },
+      {
+        "name": "naive_bayes",
+        "accuracy": 0.5714285714285714,
+        "macro_f1": 0.3802469135802469,
+        "precision": 0.3516483516483517,
+        "recall": 0.4603174603174603,
+        "roc_auc": 0.603104204644821,
+        "n_test": 21
+      },
+      {
+        "name": "svm",
+        "accuracy": 0.47619047619047616,
+        "macro_f1": 0.280970625798212,
+        "precision": 0.25555555555555554,
+        "recall": 0.3253968253968254,
+        "roc_auc": 0.42070531916470294,
+        "n_test": 21
+      }
+    ],
+    "Energy": [
+      {
+        "name": "georule",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.20512820512820515,
+        "precision": 0.2222222222222222,
+        "recall": 0.2833333333333333,
+        "roc_auc": 0.5045411378744712,
+        "n_test": 21
+      },
+      {
+        "name": "georule_price_only",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.1839080459770115,
+        "precision": 0.12698412698412698,
+        "recall": 0.3333333333333333,
+        "roc_auc": NaN,
+        "n_test": 21
+      },
+      {
+        "name": "decision_tree",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.25833333333333336,
+        "precision": 0.25833333333333336,
+        "recall": 0.25833333333333336,
+        "roc_auc": 0.4340811965811966,
+        "n_test": 21
+      },
+      {
+        "name": "knn",
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.3068181818181818,
+        "precision": 0.2916666666666667,
+        "recall": 0.325,
+        "roc_auc": 0.5683329016662351,
+        "n_test": 21
+      },
+      {
+        "name": "naive_bayes",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.24675324675324672,
+        "precision": 0.25,
+        "recall": 0.25,
+        "roc_auc": 0.4129931796598463,
+        "n_test": 21
+      },
+      {
+        "name": "svm",
+        "accuracy": 0.5238095238095238,
+        "macro_f1": 0.35897435897435903,
+        "precision": 0.48148148148148145,
+        "recall": 0.43333333333333335,
+        "roc_auc": 0.611749978416645,
+        "n_test": 21
+      }
+    ],
+    "Metal": [
+      {
+        "name": "georule",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.1839080459770115,
+        "precision": 0.12698412698412698,
+        "recall": 0.3333333333333333,
+        "roc_auc": 0.6337669683257919,
+        "n_test": 21
+      },
+      {
+        "name": "georule_price_only",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.1839080459770115,
+        "precision": 0.12698412698412698,
+        "recall": 0.3333333333333333,
+        "roc_auc": NaN,
+        "n_test": 21
+      },
+      {
+        "name": "decision_tree",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.29308565531475744,
+        "precision": 0.27777777777777773,
+        "recall": 0.3101851851851852,
+        "roc_auc": 0.40099365957209093,
+        "n_test": 21
+      },
+      {
+        "name": "knn",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.25146198830409355,
+        "precision": 0.23232323232323235,
+        "recall": 0.27777777777777773,
+        "roc_auc": 0.4637904307021954,
+        "n_test": 21
+      },
+      {
+        "name": "naive_bayes",
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.3068181818181818,
+        "precision": 0.27884615384615385,
+        "recall": 0.34722222222222215,
+        "roc_auc": 0.3677238701748506,
+        "n_test": 21
+      },
+      {
+        "name": "svm",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.1839080459770115,
+        "precision": 0.12698412698412698,
+        "recall": 0.3333333333333333,
+        "roc_auc": 0.4205351656332048,
+        "n_test": 21
+      }
+    ],
+    "Auto": [
+      {
+        "name": "georule",
+        "accuracy": 0.5238095238095238,
+        "macro_f1": 0.22916666666666666,
+        "precision": 0.18333333333333335,
+        "recall": 0.3055555555555555,
+        "roc_auc": 0.44382716049382714,
+        "n_test": 21
+      },
+      {
+        "name": "georule_price_only",
+        "accuracy": 0.2857142857142857,
+        "macro_f1": 0.14814814814814814,
+        "precision": 0.09523809523809523,
+        "recall": 0.3333333333333333,
+        "roc_auc": NaN,
+        "n_test": 21
+      },
+      {
+        "name": "decision_tree",
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.3333333333333333,
+        "precision": 0.3416666666666666,
+        "recall": 0.3611111111111111,
+        "roc_auc": 0.5901234567901236,
+        "n_test": 21
+      },
+      {
+        "name": "knn",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.25555555555555554,
+        "precision": 0.24074074074074073,
+        "recall": 0.27777777777777773,
+        "roc_auc": 0.4163580246913581,
+        "n_test": 21
+      },
+      {
+        "name": "naive_bayes",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.1794871794871795,
+        "precision": 0.16666666666666666,
+        "recall": 0.19444444444444445,
+        "roc_auc": 0.3462962962962963,
+        "n_test": 21
+      },
+      {
+        "name": "svm",
+        "accuracy": 0.2857142857142857,
+        "macro_f1": 0.18333333333333335,
+        "precision": 0.20370370370370372,
+        "recall": 0.3055555555555556,
+        "roc_auc": 0.4993827160493827,
+        "n_test": 21
+      }
+    ],
+    "Pharma": [
+      {
+        "name": "georule",
+        "accuracy": 0.5714285714285714,
+        "macro_f1": 0.35109717868338564,
+        "precision": 0.36274509803921573,
+        "recall": 0.373015873015873,
+        "roc_auc": 0.5104195674371113,
+        "n_test": 21
+      },
+      {
+        "name": "georule_price_only",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.16666666666666666,
+        "precision": 0.1111111111111111,
+        "recall": 0.3333333333333333,
+        "roc_auc": NaN,
+        "n_test": 21
+      },
+      {
+        "name": "decision_tree",
+        "accuracy": 0.5238095238095238,
+        "macro_f1": 0.39015151515151514,
+        "precision": 0.38518518518518513,
+        "recall": 0.4047619047619048,
+        "roc_auc": 0.5580419302223814,
+        "n_test": 21
+      },
+      {
+        "name": "knn",
+        "accuracy": 0.6190476190476191,
+        "macro_f1": 0.4177777777777778,
+        "precision": 0.3974358974358974,
+        "recall": 0.44047619047619047,
+        "roc_auc": 0.7193231093607033,
+        "n_test": 21
+      },
+      {
+        "name": "naive_bayes",
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.24888888888888885,
+        "precision": 0.2371794871794872,
+        "recall": 0.2619047619047619,
+        "roc_auc": 0.5209452201933406,
+        "n_test": 21
+      },
+      {
+        "name": "svm",
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.2322472848788638,
+        "precision": 0.23148148148148148,
+        "recall": 0.25396825396825395,
+        "roc_auc": 0.440807707098434,
+        "n_test": 21
+      }
+    ]
+  },
+  "n_perm": 1000,
+  "min_support_used": 0.08,
+  "gti_lambda": 0.7,
+  "novelty_note": "News-only block permutation + event-typed session GTI + Nifty sector GeoRules; not claiming causality or trading PnL."
+}

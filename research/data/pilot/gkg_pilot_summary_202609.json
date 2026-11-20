@@ -1,0 +1,116 @@
+{
+  "files_sampled": 120,
+  "files_failed": 0,
+  "mean_zip_mb": 4.43,
+  "per_file_mean": {
+    "all": 1033.7,
+    "has_title_all": 1032.3,
+    "india": 93.7,
+    "geo_global": 496.1,
+    "geo_and_econ_global": 491.1,
+    "india_and_geo": 53.0,
+    "india_and_geo_title": 53.0,
+    "india_and_geo_or_econ": 84.7
+  },
+  "month_estimate": {
+    "all": 2976984,
+    "has_title_all": 2973168,
+    "india": 269760,
+    "geo_global": 1428792,
+    "geo_and_econ_global": 1414392,
+    "india_and_geo": 152712,
+    "india_and_geo_title": 152664,
+    "india_and_geo_or_econ": 243960
+  },
+  "five_year_estimate_india_and_geo": 9162720,
+  "title_share_india_and_geo": 1.0,
+  "title_share_all": 0.999,
+  "event_type_share_india_and_geo": {
+    "CONFLICT": 0.653,
+    "POLITICS": 0.235,
+    "DIPLO": 0.165,
+    "SHIPPING": 0.159,
+    "ENERGY": 0.118,
+    "TERROR": 0.109,
+    "MONETARY": 0.105,
+    "TECH": 0.056,
+    "SANCTION": 0.051,
+    "TRADE": 0.028
+  },
+  "top_sources_india_and_geo": [
+    [
+      "indiatimes.com",
+      599
+    ],
+    [
+      "thehindu.com",
+      266
+    ],
+    [
+      "indiagazette.com",
+      225
+    ],
+    [
+      "aninews.in",
+      183
+    ],
+    [
+      "hindustantimes.com",
+      163
+    ],
+    [
+      "thehindubusinessline.com",
+      160
+    ],
+    [
+      "freepressjournal.in",
+      153
+    ],
+    [
+      "webindia123.com",
+      149
+    ],
+    [
+      "calcuttanews.net",
+      145
+    ],
+    [
+      "indiankanoon.org",
+      141
+    ],
+    [
+      "tribuneindia.com",
+      115
+    ],
+    [
+      "business-standard.com",
+      107
+    ],
+    [
+      "prokerala.com",
+      107
+    ],
+    [
+      "livemint.com",
+      103
+    ],
+    [
+      "moneycontrol.com",
+      102
+    ]
+  ],
+  "example_titles": [
+    "Commercial LPG cylinder gets dearer, jet fuel prices hiked",
+    "\"Apology to Nation is in order\": BJP's Pradeep Bhandari hits back at Rahul Gandhi's \"dead economy\" jibe after India's 7.8% GDP growth",
+    "\"Apology to Nation is in order\": BJP's Pradeep Bhandari hits back at Rahul Gandhi's \"dead economy\" jibe after India's 7.8% GDP growth",
+    "Swara Bhasker calls Jauhar scene in Deepika Padukone's Padmaavat 'cowardly'; internet says she is 'just being malicious'",
+    "UKSSSC Inter Level Recruitment 2026: Notification Out for 553 Posts; Apply Online Starts September 08 at sssc.uk.gov.in",
+    "C5i Appoints Krishnan Venkata as President & Chief Operating Officer",
+    "GenZ is ambitious, but does not equate ambition with hierarchy, shows survey",
+    "Telugu director Anand Sai's son Sandeep arrested after fatal hit-and-run accident in Hyderabad",
+    "USBC Expands Leadership Team with Former JPMorgan Chase and Coinbase Product Executive",
+    "Sixth straight night of Russian strikes hammers Kyiv, killing at least 12",
+    "US launches new Iran strikes as Hormuz tensions grow",
+    "US secures direct stake in Venezuelan oil fields to counter China and Russia, impacting global energy dynamics"
+  ]
+}
